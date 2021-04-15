@@ -5,3 +5,5 @@
 <!-- instalacion de webpack es una herramienta para preparar el pryecto se encarga de los archivos los agrupa y los optimiza para mandarlos a produccion ... npm install webpack webpack-cli html-webpack-plugin html-loader  --save-dev-->
 
 <!-- webpack dev server reportes de errores ..npm install --save-dev webpack-dev-server -->
+
+<!-- estilos css y ass extrar el bondol para traerme los archivos css npm install --save-dev mini-css-extract-plugin css-loader node-sass sass-loader -->
