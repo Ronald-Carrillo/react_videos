@@ -1,0 +1,8 @@
+// babel loader para trabajar con webpack
+
+{
+  "presets": [
+    "@babel/preset-env", //trabajar con ecm6
+    "@babel/preset-react" //trabajar con react
+  ]
+}
