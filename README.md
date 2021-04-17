@@ -11,3 +11,5 @@
 <!-- instalacion de esLint es una herramienta para ayudar a identificar errores  -->
 
 <!-- agregar bimagenes en webpack npm install --save-dev file-loader-->
+
+<!-- creando una fake Api simulacion de una api npm install json-server -g ejecutarlo en administracion  inicializarlo json-server initialState.json-->
