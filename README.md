@@ -7,3 +7,5 @@
 <!-- webpack dev server reportes de errores ..npm install --save-dev webpack-dev-server -->
 
 <!-- estilos css y ass extrar el bondol para traerme los archivos css npm install --save-dev mini-css-extract-plugin css-loader node-sass sass-loader -->
+
+<!-- instalacion de esLint es una herramienta para ayudar a identificar errores  -->

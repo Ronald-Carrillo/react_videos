@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 226px;
+  height: 70px;
+  object-fit: cover;
+  margin: 5px 10px;
+}
+
+.header__menu {
+  margin-right: 100px;
+}
+
+.header__menu ul {
+  list-style: none; /*quitarle los punticos*/
+  padding: 0px;
+  width: 100px;
+  position: absolute;
+  text-align: left;
+  display: none;
+  margin: 0px;
+}
+
+.header__menu:hover ul,
+ul:hover {
+  display: block;
+}
+.header__menu li {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.header__menu li a {
+  color: white;
+  text-decoration: none;
+
+  font-weight: 600;
+}
+
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+.header__menu--profile {
+  margin-right: 8px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header__menu--profile p {
+  margin: 0px;
+  color: white;
+}
+.header__menu--profile img {
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  color: white;
+}

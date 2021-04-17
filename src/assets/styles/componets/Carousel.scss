@@ -1,0 +1,20 @@
+.carousel {
+  width: 100%;
+  /* generar el scroll */
+  padding: 0px;
+  position: relative;
+  overflow: auto;
+}
+.carousel__container {
+  white-space: nowrap; /* que fluyan todo los elementos en una fila */
+  margin: 70px 0px;
+  padding-bottom: 10px;
+}
+.carousel::-webkit-scrollbar {
+  bottom: 0.5px;
+  width: 0.5px;
+}
+.carousel::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+}
