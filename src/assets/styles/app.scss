@@ -1,5 +1,8 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 body {
   margin: 0px;
-  background: #0b061c;
-  font-family: "Playfair Display", serif;
+  background: $main-color;
+  font-family: $them-font;
 }

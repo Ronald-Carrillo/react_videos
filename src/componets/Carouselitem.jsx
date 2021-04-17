@@ -1,23 +1,22 @@
 import React from "react";
 import "../assets/styles/componets/CarouselItem.scss";
+import playIcon from "../assets/static/icons8-play-64.png";
+import plusIcon from "../assets/static/icons8-agregar-enlace-16.png";
+import Pelicula1 from "../assets/static/image peliculas/cb2176b3-9415-43cd-a725-0c5d00920c3c.jpg";
 
 const CarouselItem = () => (
   <div className="carousel-item">
-    <img
-      className="carousel-item__img"
-      src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260"
-      alt=""
-    />
+    <img className="carousel-item__img" src={Pelicula1} alt="" />
     <div className="carousel-item__details">
       <div>
         <img
           className="carousel-item__details--img"
-          src="../assets/play-icon.png"
+          src={playIcon}
           alt="Play Icon"
         />
         <img
           className="carousel-item__details--img"
-          src="../assets/plus-icon.png"
+          src={plusIcon}
           alt="Plus Icon"
         />
       </div>

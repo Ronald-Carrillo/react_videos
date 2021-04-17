@@ -9,3 +9,5 @@
 <!-- estilos css y ass extrar el bondol para traerme los archivos css npm install --save-dev mini-css-extract-plugin css-loader node-sass sass-loader -->
 
 <!-- instalacion de esLint es una herramienta para ayudar a identificar errores  -->
+
+<!-- agregar bimagenes en webpack npm install --save-dev file-loader-->
